@@ -1,0 +1,103 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+  text-align:center;
+   background: linear-gradient(#FF3D00 0%, blue 100%);
+}
+h1{
+  color:#FFFF00;
+  padding-top: 10%;
+  font-size: 30px;
+    text-shadow: 2px 2px #FF0000;
+    text-decoration: underline;
+}
+h2{
+  color:blueviolet;
+}
+.menu{
+    list-style: none;
+    font-family:fantasy;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    z-index: 1;
+    cursor: pointer;
+}
+.links{
+    padding: 5px;
+    font-family: fantasy;
+    font-size: 15px;
+    color: darkblue;
+  display:inline;
+}
+.links:hover{
+    background-color: #90CAF9;
+}
+#icon{
+   width: 200px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 10px;
+    border-color:#42A5F5;
+    margin-bottom: 30px;
+}
+#info{
+    padding: 50px;   
+    font-size: 20px;
+    background-color:#B2FF59;
+}
+p{
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 25px;
+    line-height: 1.2;
+  color:#311B92;
+    font:d;
+    text-shadow: 6px 6ox #311B92;
+}
+#Stan{
+    transition: transform .2s;
+    border: 10px solid #AAAAAA
+}
+#Stan:hover{
+    transform: scale(1.1);
+}
+#Pierce{
+     transition: transform .2s;
+    border: 10px solid #AAAAAA
+}
+#Pierce:hover{
+      transform: scale(1.1);
+}
+#contact{
+    background-color: firebrick;    
+}
+.contact_1 a{
+  color: white !important;
+    text-shadow: none !important;
+}
+.contact_1 h3{
+    display: inline;
+    font-size: 25px;
+}
+.border{
+    border-style: solid;
+    border-right-color: crimson;
+    border-top-color: crimson;
+    border-bottom-color: darkcyan;
+    border-left-color: darkcyan;
+    border-width: 10px;
+}  
+#inspa{
+    color: aquamarine;
+}
+.line {
+    height: 7px;
+    background-color: #000;
+    width: 140px;
+    margin: 8px auto;
+}
+#email {
+    border-radius: 50%; 
+}
